@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "147FF8E11E6D169400ADF947"
+               BuildableName = "Gas MPG Calculator.app"
+               BlueprintName = "Gas MPG Calculator"
+               ReferencedContainer = "container:Gas MPG Calculator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "147FF8F81E6D169400ADF947"
+               BuildableName = "Gas MPG CalculatorTests.xctest"
+               BlueprintName = "Gas MPG CalculatorTests"
+               ReferencedContainer = "container:Gas MPG Calculator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "147FF9031E6D169400ADF947"
+               BuildableName = "Gas MPG CalculatorUITests.xctest"
+               BlueprintName = "Gas MPG CalculatorUITests"
+               ReferencedContainer = "container:Gas MPG Calculator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "147FF8E11E6D169400ADF947"
+            BuildableName = "Gas MPG Calculator.app"
+            BlueprintName = "Gas MPG Calculator"
+            ReferencedContainer = "container:Gas MPG Calculator.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "147FF8E11E6D169400ADF947"
+            BuildableName = "Gas MPG Calculator.app"
+            BlueprintName = "Gas MPG Calculator"
+            ReferencedContainer = "container:Gas MPG Calculator.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "147FF8E11E6D169400ADF947"
+            BuildableName = "Gas MPG Calculator.app"
+            BlueprintName = "Gas MPG Calculator"
+            ReferencedContainer = "container:Gas MPG Calculator.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

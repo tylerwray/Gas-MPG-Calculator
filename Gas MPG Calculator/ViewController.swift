@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func ShowDatePicker(_ sender: UISwitch, forEvent event: UIEvent) {
+        if sender.isOn == true {
+            datePicker.isHidden = false
+        } else {
+            datePicker.isHidden = true
+        }
+    }
+    @IBOutlet weak var datePicker: UIDatePicker!
 }
 

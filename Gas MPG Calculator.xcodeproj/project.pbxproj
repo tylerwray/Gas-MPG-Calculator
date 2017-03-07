@@ -15,6 +15,7 @@
 		147FF8F31E6D169400ADF947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147FF8F11E6D169400ADF947 /* LaunchScreen.storyboard */; };
 		147FF8FE1E6D169400ADF947 /* Gas_MPG_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147FF8FD1E6D169400ADF947 /* Gas_MPG_CalculatorTests.swift */; };
 		147FF9091E6D169400ADF947 /* Gas_MPG_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147FF9081E6D169400ADF947 /* Gas_MPG_CalculatorUITests.swift */; };
+		147FF9181E6D16B000ADF947 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147FF9171E6D16B000ADF947 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		147FF9041E6D169400ADF947 /* Gas MPG CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gas MPG CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		147FF9081E6D169400ADF947 /* Gas_MPG_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gas_MPG_CalculatorUITests.swift; sourceTree = "<group>"; };
 		147FF90A1E6D169400ADF947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147FF9171E6D16B000ADF947 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				147FF9181E6D16B000ADF947 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				147FF8FC1E6D169400ADF947 /* Gas MPG CalculatorTests */,
 				147FF9071E6D169400ADF947 /* Gas MPG CalculatorUITests */,
 				147FF8E31E6D169400ADF947 /* Products */,
+				147FF9161E6D16B000ADF947 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +103,7 @@
 		147FF8E41E6D169400ADF947 /* Gas MPG Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				147FF9191E6D1CC300ADF947 /* Tab-Bar-Icons */,
 				147FF8E51E6D169400ADF947 /* AppDelegate.swift */,
 				147FF8E71E6D169400ADF947 /* ViewController.swift */,
 				147FF8E91E6D169400ADF947 /* Main.storyboard */,
@@ -126,6 +131,21 @@
 				147FF90A1E6D169400ADF947 /* Info.plist */,
 			);
 			path = "Gas MPG CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		147FF9161E6D16B000ADF947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				147FF9171E6D16B000ADF947 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		147FF9191E6D1CC300ADF947 /* Tab-Bar-Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Tab-Bar-Icons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +218,14 @@
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 827APBQF8Y;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					147FF8F81E6D169400ADF947 = {
 						CreatedOnToolsVersion = 8.2;
